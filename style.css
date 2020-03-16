@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Arvo';
+  src: url('fonts/Arvo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('fonts/Nunito-Bold.ttf');
+}
+
+#NTC {
+  height: 90vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#NTCclockDisplay {
+  font-family: 'Arvo';
+  margin-bottom: 0.2em;
+}
+
+#NTCquote {
+  font-family: 'Nunito';
+}
+
+@media screen and (min-width: 601px) {
+  #NTCclock {
+    font-size: 116px;
+  }
+
+  #NTCsession {
+    font-size: 58px;
+  }
+
+  #NTCquote {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #NTCclock {
+    font-size: 84px;
+  }
+
+  #NTCsession {
+    font-size: 42px;
+  }
+
+  #NTCquote {
+    font-size: 20px;
+  }
+}
